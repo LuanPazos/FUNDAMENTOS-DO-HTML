@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tabelas no HTML</title>
+  </head>
+  <body>
+    <h1>Criação de tabelas no HTML</h1>
+
+    <table>
+
+      <tr>
+        <th>titulo 1</th>
+        <th>titulo 2</th>
+      </tr>
+      <tr>
+        <td>Dado 1</td>
+        <td>Dado 2</td>
+      </tr>
+      <tr>
+        <td>Dado 3</td>
+        <td>Dado 4</td>
+      </tr>
+    </table>
+    <hr>
+
+    <h2>Tabelas com cabeçalho</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>profissão</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>joao</td>
+          <td>21</td>
+          <td>professor</td>
+      </tr>
+      <tr>
+          <td>maria</td>
+          <td>24</td>
+          <td>advogada</td>
+      </tr>
+      </tbody>
+      
+    </table>
+    <hr>
+
+    <h2>Tabelas com celulas personalizadas</h2>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th colspan="2">informações pessoais</th> 
+          <th>contato</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>nome:</td>
+          <td>joao</td>
+          <td rowspan="2">Telefone: 12341231</td>
+        </tr>
+        <tr>
+          <td>idade:</td>
+          <td>30</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
